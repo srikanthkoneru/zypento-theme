@@ -1,0 +1,11 @@
+.zypento-blog-one-more{
+    & .wp-block-post-excerpt__more-link{
+        font-size: var(--wp--preset--font-size--normal);
+        line-height: 1.1;
+        padding: 0.5em var(--wp--preset--spacing--20);
+        border: 1px solid var(--wp--preset--color--contrast);
+        border-radius: 2em;
+        color: var(--wp--preset--color--contrast);
+        text-decoration: none;
+    }
+}

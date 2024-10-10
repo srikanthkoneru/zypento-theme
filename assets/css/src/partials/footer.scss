@@ -1,0 +1,183 @@
+.zypento-footer-two-address{
+    &>h3{
+        margin: 0 0 1.5em 0;
+    }
+    &>p{
+        margin-block-start: 0 !important;
+        margin: 0 0 0.5em 0;
+        line-height: 1.1;
+    }
+}
+.zypento-footer-two-email{
+    padding: 1.5em 0 0.5em 0 !important;
+}
+.zypento-footer-two-address-social{
+    margin: 1.5em 0 0 0 !important;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    & li{
+        display: inline-block;
+        padding: 6px !important;
+        border-radius: 4px;
+        background: var(--wp--preset--color--accent-7);
+        color: var(--wp--preset--color--base-2);
+        & a{
+            color: var(--wp--preset--color--base-2); 
+        }
+    }
+}
+.zypento-footer-two-links{
+
+}
+.zypento-footer-bottom-links{
+    margin-block-start: 0 !important;
+    color: var(--wp--preset--color--base);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    & li{
+        display: inline-block;
+        padding: 0 30px;
+        border-right: 1px solid var(--wp--preset--color--base);
+        line-height: 1;
+        &:last-child{
+            border-right: none;
+        }
+    }
+    & a{
+        text-decoration: none;
+        color: var(--wp--preset--color--base);
+    }
+}
+.zypento-footer-two-menu{
+    list-style: none;
+    padding: 2em 0 0 0;
+    margin: 0;
+    & li{
+        padding: 0.3em 0;
+        margin: 0;
+        transition: margin 1s ease;
+        & a{
+            text-decoration: none;
+            :hover{
+                text-decoration: underline !important;
+            }
+        }
+        :hover{
+            margin: 0 0 0 10px;
+            transition: margin 1s ease;
+        }
+    }
+}
+.zypento-footer-two-bottom-nav{
+
+}
+.zypento-footer-three-bottom-nav{
+    margin-block-start: 0 !important;
+    color: var(--wp--preset--color--base);
+    list-style: none;
+    margin: 0;
+    padding: 20px 0 10px 0;
+    text-align: center;
+    & li{
+        display: inline-block;
+        padding: 0 30px;
+        border-right: 1px solid var(--wp--preset--color--base);
+        line-height: 1;
+        &:last-child{
+            border-right: none;
+        }
+    }
+    & a{
+        text-decoration: none;
+        color: var(--wp--preset--color--base);
+    }
+}
+.zypento-footer-three-bottom{
+    & .zypento-footer-two-address-social{
+        margin: 0 !important;
+    }
+}
+
+.zypento-footer-four-bottom{
+    & .zypento-footer-three-bottom-nav{
+        padding: 0 !important;
+        text-align: right;
+    }
+}
+
+.zypento-footer-five-address{
+    position: relative;
+    padding: 1em 1em 1em 120px;
+    min-height: 100px;
+    & h3{
+        margin-block-start: 0.4em !important;
+    }
+    & .zypento-icon{
+        margin-block-start: 0 !important;
+        border: 1px solid var(--wp--preset--color--accent-9);
+        background: var(--wp--preset--color--accent-9);
+        border-radius: 6px;
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        top: 1em;
+        left: 1em;
+    }
+}
+
+.zypento-footer-five-address-email{
+    position: relative;
+    padding: 1em 1em 1em 120px;
+    min-height: 100px;
+    & h4{
+        margin-block-start: 0.4em !important;
+    }
+    & .zypento-icon{
+        margin-block-start: 0 !important;
+        border: 1px solid var(--wp--preset--color--accent-9);
+        background: var(--wp--preset--color--accent-9);
+        border-radius: 6px;
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        top: 1em;
+        left: 1em;
+    }
+}
+.zypento-footer-five-address-phone{
+    position: relative;
+    padding: 1em 1em 1em 120px;
+    min-height: 100px;
+    & h4{
+        margin-block-start: 0.4em !important;
+    }
+    & .zypento-icon{
+        margin-block-start: 0 !important;
+        border: 1px solid var(--wp--preset--color--accent-9);
+        background: var(--wp--preset--color--accent-9);
+        border-radius: 6px;
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        top: 1em;
+        left: 1em;
+    }  
+}
+
+.zypento-footer-six{
+    /*
+    & .wp-block-zypento-subscribe-two{
+        background: var(--wp--preset--color--accent-9);
+        color: var(--wp--preset--color--base-2) !important;
+    }
+    */
+}
+.zypento-footer-six-bottom{
+    & .zypento-footer-three-bottom-nav{
+        padding: 0 !important;
+        text-align: right;
+    }
+}

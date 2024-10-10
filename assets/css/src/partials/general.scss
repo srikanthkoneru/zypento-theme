@@ -1,0 +1,234 @@
+.zypento-no-gap{
+    margin-block-start: 0 !important;
+}
+.zypento-gap-5{
+    margin-block-start: 5px !important;
+}
+.zypento-gap-10{
+    margin-block-start: 10px !important;
+}
+header{
+    width: 100%;
+}
+footer{
+    margin-block-start: 0 !important;
+}
+
+.wp-block-post-featured-image img{
+    border-radius: 6px;
+}
+
+.zypento-page-heading{
+    @media screen and (min-width : 1201px) {
+        padding-right: calc( var(--wp--style--global--wide-size) / 3 );
+    }
+}
+
+.zypento-sidebar-search{
+    background-color: var(--wp--preset--color--base-3) !important;
+    border-radius: 6px;
+    margin-bottom: var(--wp--preset--spacing--40);
+    & .wp-block-search__label{
+        display: block;
+        font-family: var(--wp--preset--font-family--heading);
+        font-size: var(--wp--preset--font-size--large) !important;
+        margin-bottom: var(--wp--preset--spacing--10);
+        line-height: 1;
+        display: block;
+        font-weight: 900;
+    }
+    & .wp-block-search__inside-wrapper {
+        width: 100%;
+    }
+}
+.tektangle-sidebar-recent{
+    border-radius: 6px;
+}
+.tektangle-sidebar-recent-heading{
+    margin-bottom: 0.6em !important;
+}
+.zypento-sidebar-categories{
+    & li>a{
+        padding: 0.4em 1.6em;
+        border-radius: 2em;
+        background: var(--wp--preset--color--base-4);
+        margin: 0 0 0.5em 0;
+        text-decoration: none;
+        display: inline-block;
+    }
+}
+.zypento-sidebar-tag-cloud{
+    & .tag-cloud-link{
+        padding: 0.4em 1.6em;
+        border-radius: 2em;
+        background: var(--wp--preset--color--base-4);
+        margin: 0 0.5em 0.5em 0;
+        text-decoration: none;
+        display: inline-block;
+    }
+}
+
+.zypento-single{
+    margin-block-start: 0 !important;
+}
+.zypento-single-title{
+    @media screen and (min-width : 1201px) {
+        padding-right: calc( var(--wp--style--global--wide-size) / 4 );
+    }
+}
+.zypento-single-content{
+    &>.entry-content{
+        margin: 0 !important;
+        width: 100% !important;
+        padding: 0 !important;
+        &>*{
+            width: 100% !important;
+            max-width: none !important;
+        }
+        & pre{
+            overflow: auto;
+        }
+    }
+}
+.zypento-comment{
+    & pre{
+        overflow: auto;
+    }
+}
+.zypento-single-author-meta{
+    & .wp-block-column:nth-child(1){
+        flex-basis: 60px;
+        & img{
+            border-radius: 50%;
+        }
+    }
+    & .wp-block-column:nth-child(2){
+        flex-basis: calc( 100% - 90px );
+        padding-top: 0;
+        & .wp-block-post-author-name{
+            font-weight: bold;
+            font-size: 1.4rem;
+        }
+        & .wp-block-post-date{
+            margin-block-start: 0;
+        }
+    }
+}
+.zypento-single-meta-cats .wp-block-post-terms{
+    & a{
+        text-decoration: none;
+        padding: 10px 30px;
+        border: 1px solid var(--wp--preset--color--accent-6);
+        border-radius: 2em;
+        margin: 0 var(--wp--preset--spacing--10) var(--wp--preset--spacing--10) 0;
+    }
+}
+.wp-block-comments{
+    margin-block-start: var(--wp--preset--spacing--40);
+}
+
+.zypento-single-content-nav-container{
+    padding: var(--wp--preset--spacing--40) 0 !important;
+}
+
+.wpcf7-form{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    color: var(--wp--preset--color--base-2);
+    & *{
+        box-sizing: border-box;
+    }
+    & label{
+        font-size: 1rem;
+        font-weight: bold;
+        color: var(--wp--preset--color--base-2);
+    }
+    & input:not([type="submit"]){
+        width: 100%;
+        background: #181925;
+        color: var(--wp--preset--color--base-2);
+        &:focus{
+            outline-color: #000000;
+        }
+    }
+    &>p{
+        flex-basis: 100%;
+        &:nth-child(2){
+            @media screen and (min-width : 781px) {
+                flex-basis: 48%;
+                margin: 0 4% 0 0;
+            }
+        }
+        &:nth-child(3){
+            @media screen and (min-width : 781px) {
+                flex-basis: 48%;
+                margin: 0;
+            }
+        }
+    }
+}
+.wpcf7-form-control-wrap{
+    padding: 1em 0 0 0;
+    display: block;
+}
+.wpcf7-text{
+    width: 100%;
+    padding: 1.2em;
+    border: 0;
+    font-size: 1rem;
+}
+.wpcf7-textarea{
+    width: 100%;
+    padding: 1.2em;
+    border: 0;
+    font-size: 1rem;
+    background: #181925;
+}
+.wpcf7-submit{
+    padding: 1.0em 3.0em;
+    font-size: 1rem;
+    background: var(--wp--preset--color--accent-6);
+    border-radius: 2em;
+    color: var(--wp--preset--color--base-2);
+    font-weight: 700;
+    border: 0;
+    outline-color: #000000;
+}
+.zypento-footer-extra{
+    & .wp-block-column{
+        flex-basis: 100%;
+        &:nth-child(1){
+            @media screen and (min-width : 781px) {
+                flex-basis: 24%;
+                background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='2em' height='2em' viewBox='0 0 24 24'%3E%3Cpath fill='%23432CF3' d='M12 22q-2.075 0-3.9-.788t-3.175-2.137T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2t3.9.788t3.175 2.137T21.213 8.1T22 12t-.788 3.9t-2.137 3.175t-3.175 2.138T12 22'/%3E%3C/svg%3E") right center no-repeat;
+            }
+        }
+        &:nth-child(2){
+            @media screen and (min-width : 781px) {
+                flex-basis: 46%;
+                text-align: center;
+                background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='2em' height='2em' viewBox='0 0 24 24'%3E%3Cpath fill='%23432CF3' d='M12 22q-2.075 0-3.9-.788t-3.175-2.137T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2t3.9.788t3.175 2.137T21.213 8.1T22 12t-.788 3.9t-2.137 3.175t-3.175 2.138T12 22'/%3E%3C/svg%3E") right center no-repeat;
+            }
+        }
+        &:nth-child(3){
+            @media screen and (min-width : 781px) {
+                flex-basis: 30%;
+            }
+        }
+    }
+}
+.tektangle-footer-nav{
+    display: none;
+}
+
+.tektangle-portfolio-link{
+    transition: background-color 1s ease, border-color 1s ease, color 1s ease, border-radius 1s ease;
+    &:hover{
+        background-color: var(--wp--preset--color--accent-6);
+        border-color: var(--wp--preset--color--accent-7);
+        border-radius: 2em;
+        color: var(--wp--preset--color--base-2);
+        transition: background-color 1s ease, border-color 1s ease, color 1s ease, border-radius 1s ease;
+    }
+}

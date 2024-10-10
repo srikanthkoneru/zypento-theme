@@ -1,0 +1,12 @@
+.zypento-benefit-one{
+    position: relative;
+    padding: 2em 2em 2em calc(4em + 48px);
+    & .zypento-benefit-one-image{
+        margin-block-start: 0 !important;
+        width: 48px;
+        height: 48px;
+        position: absolute;
+        top: 2em;
+        left: 2em;
+    }
+}

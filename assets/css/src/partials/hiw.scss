@@ -1,0 +1,20 @@
+.zypento-hiw{
+    position: relative;
+    &>div{
+        position: relative;
+        z-index: 3;
+    }
+}
+.zypento-hiw-bg{
+    z-index: 2;
+    width: 38%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: var(--wp--preset--color--accent-7);
+    display: none;
+    @media screen and (min-width : 781px) {
+        display: block;
+    }
+}

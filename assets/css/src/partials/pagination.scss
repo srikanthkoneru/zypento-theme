@@ -1,0 +1,54 @@
+.wp-block-query-pagination{
+    padding: var(--wp--preset--spacing--40) 0 0 0;
+}
+.wp-block-query-pagination-numbers a{
+    padding: 12px 10px;
+    margin: 0 7px 5px 7px;
+    text-decoration: none;
+    background: var(--wp--preset--color--base-4);
+    text-transform: uppercase;
+    font-weight: 800;
+    border-radius: 4px;
+}
+.wp-block-query-pagination-numbers span,
+.wp-block-query-pagination-previous,
+.wp-block-query-pagination-next{
+    padding: 12px 10px;
+    margin: 0 7px 5px 7px;
+    text-decoration: none;
+    border: 1px solid var(--wp--preset--color--base-4);
+    text-transform: uppercase;
+    font-weight: 800;
+    border-radius: 4px;
+}
+.wp-block-query-pagination-previous{
+    margin: 0 7px 5px 0;
+}
+
+.zypento-signgle-content{
+    & .entry-content{
+        & .post-nav-links{
+            margin: 3em 0 0 0 !important;
+            & a{
+                padding: 12px 10px;
+                margin: 0 7px 5px 7px;
+                text-decoration: none;
+                background: var(--wp--preset--color--base-4);
+                text-transform: uppercase;
+                font-weight: 800;
+                border-radius: 4px;
+                display: inline-block;
+            }
+            & span{
+                padding: 12px 10px;
+                margin: 0 7px 5px 7px;
+                text-decoration: none;
+                border:1px solid var(--wp--preset--color--base-4);
+                text-transform: uppercase;
+                font-weight: 800;
+                border-radius: 4px;
+                display: inline-block;
+            }
+        }
+    }
+}

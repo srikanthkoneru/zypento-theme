@@ -1,0 +1,66 @@
+.zypento-pricing-one{
+
+}
+.zypento-pricing-one-plan{
+    border-radius: 6px;
+}
+.zypento-pricing-one-name{
+    
+}
+.zypento-pricing-one-name-alt{
+    & mark{
+        position: relative;
+        &::after{
+            content: '';
+            display: inline-block;
+            width: 1.4em;
+            height: 1.4em;
+            margin-left: 0.3em;
+            position: absolute;
+            left: 100%;
+            top: -0.05em;
+            background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='2.4em' height='2.4em' viewBox='0 0 24 24'%3E%3Cg fill='none' stroke='%23432CF3' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'%3E%3Cpath d='M3 9.4c0-2.24 0-3.36.436-4.216a4 4 0 0 1 1.748-1.748C6.04 3 7.16 3 9.4 3h5.2c2.24 0 3.36 0 4.216.436a4 4 0 0 1 1.748 1.748C21 6.04 21 7.16 21 9.4v5.2c0 2.24 0 3.36-.436 4.216a4 4 0 0 1-1.748 1.748C17.96 21 16.84 21 14.6 21H9.4c-2.24 0-3.36 0-4.216-.436a4 4 0 0 1-1.748-1.748C3 17.96 3 16.84 3 14.6z'/%3E%3Cpath d='M15.75 17c-1.712-1.803-7.5-5-7.049-8.16c0-1 .848-1.84 1.84-1.84s1.841.84 1.841 1.84c0 1.665-2.423 3.188-3.467 4.232a2.324 2.324 0 0 0 0 3.254c.884.885 2.378.876 3.254 0l3.581-3.701'/%3E%3C/g%3E%3C/svg%3E") center no-repeat;
+        }
+    }
+
+}
+.zypento-pricing-one-sub-name{
+    
+}
+.zypento-pricing-one-price{
+    border-top: 1px solid var(--wp--preset--color--base-3);
+    border-bottom: 1px solid var(--wp--preset--color--base-3);
+    padding-top: var(--wp--preset--spacing--10) !important;
+    padding-right: var(--wp--preset--spacing--30) !important;
+    padding-bottom: var(--wp--preset--spacing--10) !important;
+    padding-left: var(--wp--preset--spacing--30) !important;
+    & .wp-block-column:first-child{
+        position: relative;
+        & .zypento-pricing-one-price-icon{
+            position: absolute;
+            top: 50%;
+            right: 0;
+            margin: -20px -7px 0 0;
+            width: 24px;
+            height: 24px;
+            background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24px' height='24px' viewBox='0 0 16 16'%3E%3Cpath fill='%23432CF3' d='M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0m1.062 4.312a1 1 0 1 0-2 0v2.75h-2.75a1 1 0 0 0 0 2h2.75v2.75a1 1 0 1 0 2 0v-2.75h2.75a1 1 0 1 0 0-2h-2.75Z'/%3E%3C/svg%3E") center no-repeat;
+        }
+    }
+}
+.zypento-pricing-one-first-price{
+    margin-block-start: 0 !important;
+    border-top: 1px solid var(--wp--preset--color--base-3);
+    padding-top: var(--wp--preset--spacing--10) !important;
+}
+.zypento-pricing-one-first-sub-price{
+    margin-block-start: 0 !important;
+}
+.zypento-pricing-one-features{
+    width: 80%;
+    list-style: none;
+    padding: 0;
+    & li{
+        padding: 7px 0;
+        line-height: 1.2;
+    }
+}

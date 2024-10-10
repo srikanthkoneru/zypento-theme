@@ -1,0 +1,45 @@
+.zypento-header-two{
+    position: relative;
+}
+.zypento-header-two .wp-block-navigation{
+    @media screen and (max-width : 780px) {
+        position: static;
+    }
+}
+.zypento-header-two .wp-block-navigation__responsive-container-open{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.zypento-nav-one{
+    & .wp-block-navigation-item{
+        padding: 0.7em 1.4em;
+        font-weight: 800;
+        &:hover{
+            background: var(--wp--preset--color--accent-7);
+            border-radius: 8px;
+            & a{
+                text-decoration: none;
+            }
+        }
+    }
+}
+.zypento-nav-one-cta{
+    position: absolute;
+    right: 0;
+    & .wp-block-button{
+        transition: background-color 1s ease, color 1s ease;
+        &:hover{
+            background-color: var(--wp--preset--color--base-2);
+            transition: background-color 1s ease, color 1s ease;
+            color: var(--wp--preset--color--contrast);
+            border-radius: 8px;
+        }
+    }
+    & a{
+        font-weight: 800;
+    }
+    
+}

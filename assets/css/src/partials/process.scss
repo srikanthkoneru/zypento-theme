@@ -1,0 +1,21 @@
+.zypento-process-one-item{
+    margin-block-start:0;
+    &:not(:last-child){
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0) 50px, rgba(0, 0, 0,0) 51px, rgba(0, 0, 0,1) 52px, rgba(0, 0, 0,0) 53px, rgba(0, 0, 0,0) 100%);
+    }
+    & .wp-block-column:nth-child(1){
+        & h2{
+            padding: var(--wp--preset--spacing--20) 0 !important;
+            border-radius: 6px;
+        }
+    }
+    & .wp-block-column:nth-child(2){
+        flex-basis: calc(100% - 120px) !important;
+        &>h3{
+            margin-bottom: 5px !important;
+        }
+        &>p{
+            margin-block-start:10px;
+        }
+    }
+}
